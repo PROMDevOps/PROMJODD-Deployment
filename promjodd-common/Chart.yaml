@@ -58,4 +58,4 @@ dependencies:
     alias: pgweb
     condition: pgweb.enabled
     repository: "https://charts.ectobit.com"
-    version: "0.1.8"
+    version: "0.1.9"
