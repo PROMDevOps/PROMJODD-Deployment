@@ -18,6 +18,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: promjodd-{{ .Values.envAlias }}-pgweb
+                name: promjodd-{{ .Values.envAlias }}-pgweb-dummyxxxx # Disable it
                 port:
                   number: 80
